@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Open+Sans:wght@500&display=swap");
+body {
+  font-family: "Baloo Bhai", cursive;
+  color: rgb(0, 0, 0);
+  margin: 0px;
+  font-family: "Josefin Sans", sans-serif;
+  padding: 0px;
+  background-color: rgb(207, 235, 194);
+  background-size: contain;
+}
+
+.left {
+  display: inline-block;
+  /* border: 2px solid red; */
+  position: absolute;
+  left: 60px;
+  top: 20px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.left img {
+  width: 136px;
+  filter: invert(100%);
+  margin: 0px 0px 0px 12px;
+}
+
+.left div {
+  line-height: 19px;
+  font-size: 26px;
+  text-align: center;
+  margin: 5px 0px 0px 0px;
+}
+
+.mid {
+  display: block;
+  width: 36%;
+  margin: 29px auto;
+  /* border: 2px solid green; */
+}
+
+.right {
+  position: absolute;
+  right: 34px;
+  top: 43px;
+  display: inline-block;
+  /* border: 2px solid yellow; */
+}
+
+/* .navbar {
+  display: inline-block;
+}
+
+.navbar li {
+  display: inline-block;
+  font-size: 25px;
+}
+
+.navbar li a {
+  /* color: white; */
+/* text-decoration: none;
+  padding: 34px 23px;
+}  */
+
+.btn {
+  /* font-family: "Baloo Bhai", cursive; */
+  margin: 0px 9px;
+  background-color: black;
+  color: white;
+  padding: 4px 14px;
+  border: 2px solid grey;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.container {
+  border: 2px solid rgb(0, 0, 0);
+  margin: 75px 64px;
+  padding: 25px;
+  width: 36%;
+  border-radius: 28px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.form-group input {
+  /* font-family: "Baloo Bhai", cursive; */
+  text-align: center;
+  display: block;
+  width: 400px;
+  padding: 1px;
+  border: 2px solid black;
+  margin: 11px auto;
+  font-size: 18px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background: none;
+  text-align: left;
+  border-bottom: 3px solid black;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.container h1 {
+  text-align: center;
+}
+
+.container button {
+  display: block;
+  width: 25%;
+  margin: 20px auto;
+  background: none;
+  border-bottom: 3px solid red;
+}
+* {
+  box-sizing: border-box;
+}
+.logo {
+  display: block;
+  position: absolute;
+  margin: 0px;
+  left: 25px;
+  top: 25px;
+}
+.logo img {
+  width: 120px;
+  height: 80px;
+  margin: 0px;
+}
+.logo div {
+  text-align: center;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Lobster", cursive;
+}
+.mid {
+  display: block;
+  width: 50%;
+  margin: 34px auto;
+  margin-left: 230px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+}
+.navbar {
+  display: inline-block;
+  width: 160%;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  font-family: "Josefin Sans", sans-serif;
+}
+.navbar li {
+  list-style: none;
+  display: inline-block;
+  font-size: 25px;
+}
+.navbar li a {
+  width: 40%;
+  padding: 10px 20px;
+  margin: 0px 0px;
+  text-decoration: none;
+  color: black;
+}
+.contact {
+  float: right;
+}
+.navbar li a:hover {
+  text-decoration: underline;
+  /* color: white; */
+}
+.navbar li a:active {
+  text-decoration: underline;
+  color: rgb(40, 26, 243);
+}
+.contact {
+  position: absolute;
+  display: inline-block;
+  top: 46px;
+  right: 60px;
+  text-decoration: none;
+}
+/* .btn {
+  margin: 0px 10px;
+  padding: 11px 14px;
+  font-size: 23px;
+} */
+.btn {
+  margin: 0px 9px;
+  padding: 4px 5px;
+  /* border-radius: 5px; */
+  font-size: 20px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: black;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 15px;
+  margin: 0px 0px 0px 0px;
+  /* border-width: 2px solid grey;
+  border-color: rgb(10 17 255); */
+}
+.btn a {
+  text-decoration: none;
+}
+.btn:hover {
+  text-decoration: underline;
+}
+.btn:active {
+  background-color: rgb(67, 67, 216);
+}
+.button {
+  margin: 0px 9px;
+  padding: 4px 5px;
+  border: none;
+  font-size: 18px;
+  width: 40px;
+  border-radius: 8px;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+}
