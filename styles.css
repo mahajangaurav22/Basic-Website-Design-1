@@ -123,6 +123,10 @@ body {
   text-align: center;
 }
 
+.container h1:hover {
+  text-decoration: rgb(70, 70, 70) underline;
+}
+
 .container button {
   display: block;
   width: 25%;
@@ -213,7 +217,7 @@ body {
   cursor: pointer;
   background: none;
   border: none;
-  color: black;
+  color: white;
   font-family: "Josefin Sans", sans-serif;
   font-size: 15px;
   margin: 0px 0px 0px 0px;
