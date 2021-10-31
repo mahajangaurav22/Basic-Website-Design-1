@@ -98,7 +98,7 @@ body {
   margin: 75px 64px;
   padding: 25px;
   width: 36%;
-  border-radius: 28px;
+  border-radius: 8px;
 }
 
 .form-group input {
@@ -117,6 +117,7 @@ body {
   text-align: left;
   border-bottom: 3px solid black;
   font-family: "Josefin Sans", sans-serif;
+  color: white;
 }
 
 .container h1 {
@@ -239,7 +240,13 @@ body {
   border: none;
   font-size: 18px;
   width: 40px;
+  color: white;
   border-radius: 8px;
   text-align: center;
   font-family: "Josefin Sans", sans-serif;
+}
+
+.button:hover:focus {
+  border: none;
+  outline: none;
 }
