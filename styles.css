@@ -1,13 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Open+Sans:wght@500&display=swap");
 body {
-  font-family: 'Open Sans', sans-serif;
+  /* font-family: "Baloo Bhai", cursive; */
   color: rgb(0, 0, 0);
   margin: 0px;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Lato", sans-serif;
   padding: 0px;
   /* background-color: rgb(207, 235, 194); */
-  background-image: url("https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8&w=1000&q=80");
-  background-repeat: no-repeat;
+  background-image: url("https://miro.medium.com/max/1200/1*dP81IJq-tGFxy1rIK3RYsg.png");
+  background-repeat: no-rpeat;
   background-size: cover;
 }
 
@@ -22,8 +24,11 @@ body {
   justify-content: center;
   align-items: center;
   font-family: "Josefin Sans", sans-serif;
+  font-family: "Oswald", sans-serif;
 }
-
+.left:hover {
+  text-decoration: underline;
+}
 .left img {
   width: 136px;
   filter: invert(100%);
@@ -57,6 +62,7 @@ body {
   right: 34px;
   top: 43px;
   display: inline-block;
+  font-family: "Zen Kurenaido", sans-serif;
   /* border: 2px solid yellow; */
 }
 
@@ -98,7 +104,7 @@ body {
   margin: 75px 64px;
   padding: 25px;
   width: 36%;
-  border-radius: 28px;
+  border-radius: 8px;
 }
 
 .form-group input {
@@ -117,10 +123,15 @@ body {
   text-align: left;
   border-bottom: 3px solid black;
   font-family: "Josefin Sans", sans-serif;
+  color: white;
 }
 
 .container h1 {
   text-align: center;
+}
+
+.container h1:hover {
+  text-decoration: rgb(70, 70, 70) underline;
 }
 
 .container button {
@@ -168,7 +179,8 @@ body {
   left: 0px;
   right: 0px;
   top: 0px;
-  font-family: "Josefin Sans", sans-serif;
+  /* font-family: "Josefin Sans", sans-serif; */
+  font-family: "Oswald", sans-serif;
 }
 .navbar li {
   list-style: none;
@@ -199,6 +211,7 @@ body {
   top: 46px;
   right: 60px;
   text-decoration: none;
+  font-family: "Zen Kurenaido", sans-serif;
 }
 /* .btn {
   margin: 0px 10px;
@@ -213,11 +226,13 @@ body {
   cursor: pointer;
   background: none;
   border: none;
-  color: black;
+  color: white;
   font-family: "Josefin Sans", sans-serif;
   font-size: 15px;
+  font-family: "Zen Kurenaido", sans-serif;
   margin: 0px 0px 0px 0px;
   /* border-width: 2px solid grey;
+  font-family: 'Zen Kurenaido', sans-serif;
   border-color: rgb(10 17 255); */
 }
 .btn a {
@@ -235,7 +250,13 @@ body {
   border: none;
   font-size: 18px;
   width: 40px;
+  color: white;
   border-radius: 8px;
   text-align: center;
   font-family: "Josefin Sans", sans-serif;
+}
+
+.button:hover:focus {
+  border: none;
+  outline: none;
 }
